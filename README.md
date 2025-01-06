@@ -25,3 +25,26 @@ Investigate and analyze a phishing attack, focusing on endpoint behavior, creden
 - Olevba: A tool for extracting and analyzing VBA macros embedded in Microsoft Office documents to detect malicious behavior.
 - Volatility: A memory forensics tool used to extract and analyze data from system memory dumps, helping to uncover running processes, network activity, and persistence mechanisms.
 - Sysmon and Windows Event Logs: Used to collect detailed system activity and security event logs for detecting malicious activities like lateral movement, credential harvesting, and persistence creation.
+
+## Perform Analysis
+
+- Phishing Email with .lnk or a Windows shortcut attachment
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
+
+- Phishing Email with .doc attachment that contains vba macro
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
+
+- Phishing Email with .hta (HTML application) attachment
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
