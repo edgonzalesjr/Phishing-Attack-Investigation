@@ -29,10 +29,11 @@ Investigate and analyze a phishing attack, focusing on endpoint behavior, creden
 ## Perform Analysis
 
 - Phishing Email with .lnk or a Windows shortcut attachment
+
 <p align="center">
-<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/K6B0sYK.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b></b>
+<b>Get the hash value of the provided artefacts</b>
 <br/>
 
 - Phishing Email with .doc attachment that contains vba macro
