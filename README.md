@@ -36,6 +36,36 @@ Investigate and analyze a phishing attack, focusing on endpoint behavior, creden
 <b>Get the hash value of the provided artefacts</b>
 <br/>
 
+<p align="center">
+<img src="https://imgur.com/rGQ6lsl.png" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b>Open the extrated .eml file to see what the email's content.</b>
+<br/>
+
+<p align="center">
+<img src="https://imgur.com/mYGT2Hk.png" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b>Open the extrated .eml file to text editor.</b>
+<br/>
+
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
+
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
+
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
+
 - Phishing Email with .doc attachment that contains vba macro
 <p align="center">
 <img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
@@ -43,7 +73,31 @@ Investigate and analyze a phishing attack, focusing on endpoint behavior, creden
 <b></b>
 <br/>
 
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
+
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
+
 - Phishing Email with .hta (HTML application) attachment
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
+
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
+
 <p align="center">
 <img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
 <br/>
