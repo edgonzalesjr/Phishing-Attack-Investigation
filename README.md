@@ -55,9 +55,9 @@ Investigate and analyze a phishing attack, focusing on endpoint behavior, creden
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/M2cPUtu.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b></b>
+<b>Name of the third-party mail relay service used by the attacker based on the DKIM-Signature and List-Unsubscribe headers.</b>
 <br/>
 
 <p align="center">
