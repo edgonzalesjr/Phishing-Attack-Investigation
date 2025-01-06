@@ -61,15 +61,17 @@ Investigate and analyze a phishing attack, focusing on endpoint behavior, creden
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/3PQpLDU.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/gV31oQo.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
 <b>Attachment Analysis.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/pTGp4HA.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b></b>
+<img src="https://imgur.com/y9UlqZa.png" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b>Parse .lnk file and decode the base64 string.</b>
 <br/>
 
 <p align="center">
