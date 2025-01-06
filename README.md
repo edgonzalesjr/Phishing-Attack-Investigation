@@ -48,3 +48,17 @@ Investigate and analyze a phishing attack, focusing on endpoint behavior, creden
 <br/>
 <b></b>
 <br/>
+
+## Outcome
+
+- Phishing Analysis Proficiency: Effectively dissect phishing emails, decode encoded attachments, and identify malicious payloads such as .HTA files or VBA macros.
+ - Endpoint Investigation Skills: Investigate PowerShell logs, analyze the execution of malicious commands, and understand their impact on the system. Identify persistence mechanisms and escalate privileges techniques used by attackers.
+ - Network Traffic Forensics: Perform in-depth analysis of packet captures, identify the domains, ports, and tools used by attackers for C2 communication, and reconstruct the attack’s network flow to understand the exfiltration process.
+ - Data Exfiltration Detection: Correlating PowerShell logs and network traffic data, identify data exfiltration techniques, reconstruct stolen data, and understand how attackers bypass defenses to move sensitive data out of the compromised network.
+ - Incident Response: Conduct full incident investigations, from email attachment extraction to network traffic examination, and respond effectively to similar phishing-based attacks in real-world environments.
+ - Full Attack Lifecycle Understanding: The integration of file, endpoint, and network analysis techniques, learn to piece together a complete attack timeline, identifying key attack vectors, lateral movement, and data exfiltration methods, ability to detect and mitigate similar future attacks.
+ - Advanced Analysis with ELK: Gain hands-on experience using the ELK Stack (ElasticSearch and Kibana) to search, analyze, and visualize data from various sources (e.g., PowerShell logs, Sysmon logs, network traffic) for detecting malicious activities, correlating events, and conducting comprehensive investigations.
+
+## Acknowledgements
+- Inspired from [TryHackMe - Boogeyman 1](https://tryhackme.com/r/room/boogeyman1)
+- [Whois](https://www.whois.com/whois/)
