@@ -39,19 +39,19 @@ Investigate and analyze a phishing attack, focusing on endpoint behavior, creden
 <p align="center">
 <img src="https://imgur.com/rGQ6lsl.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b>Open the extrated .eml file to see what the email's content.</b>
+<b>Open the extracted .eml file to see what the email's content.</b>
 <br/>
 
 <p align="center">
 <img src="https://imgur.com/mYGT2Hk.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b>Open the extrated .eml file to text editor.</b>
+<b>Open the extracted .eml file to text editor.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/Tm1zRyC.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b></b>
+<b>Extraction of the .eml for IOCs.</b>
 <br/>
 
 <p align="center">
