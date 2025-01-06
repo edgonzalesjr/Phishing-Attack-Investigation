@@ -61,10 +61,24 @@ Investigate and analyze a phishing attack, focusing on endpoint behavior, creden
 <br/>
 
 <p align="center">
+<img src="https://imgur.com/3PQpLDU.png" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b>Attachment Analysis.</b>
+<br/>
+
+<p align="center">
 <img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
 <br/>
 <b></b>
 <br/>
+
+<p align="center">
+<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b></b>
+<br/>
+
+
 
 - Phishing Email with .doc attachment that contains vba macro
 <p align="center">
