@@ -79,13 +79,31 @@ Investigate and analyze a phishing attack, focusing on endpoint behavior, creden
 <br/>
 <img src="https://imgur.com/meomwvu.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b>Domains used by the attacker for file hosting and C2</b>
+<b>Domains used by the attacker for file hosting and C2.</b>
+<br/>
+
+<p align="center">
+<img src="https://imgur.com/0iYW973.png" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b>The enumeration tool downloaded by the attacker.</b>
+<br/>
+
+<p align="center">
+<img src="https://imgur.com/APYmkn7.png" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b>The file accessed by the attacker using the downloaded binary.</b>
+<br/>
+
+<p align="center">
+<img src="https://imgur.com/IcV6ip4.png" height="40%" width="40%" alt="Device Specification"/>
+<br/>
+<b>The name of the exfiltrated file.</b>
 <br/>
 
 <p align="center">
 <img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b>The enumeration tool downloaded by the attacker</b>
+<b></b>
 <br/>
 
 <p align="center">
