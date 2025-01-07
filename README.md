@@ -118,7 +118,7 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 - Incident Response: By completing the analysis from email attachment extraction through to network traffic examination, uderstand how to conduct a full incident investigation, from initial compromise to data exfiltration, equip to respond to similar real-world incidents.
 
 ## Acknowledgements
-- Inspired from [TryHackMe - Boogeyman 1](https://tryhackme.com/r/room/boogeyman1)
+- Adapted from [TryHackMe - Boogeyman 1](https://tryhackme.com/r/room/boogeyman1)
 - [Wireshark](https://www.whois.com/whois/)
 - [Thunderbird](https://www.thunderbird.net/en-US/)
 - [lnkparse](https://github.com/Matmaus/LnkParse3)
