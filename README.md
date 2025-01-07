@@ -112,11 +112,13 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 ## Outcome
 
 - Phishing Analysis: Dissect and analyze phishing emails, understand how malicious attachments are hidden, and successfully extract embedded payloads.
-- Endpoint Investigation: Investigate PowerShell logs (in JSON format) to understand the attacker’s methods, identify executed commands, and uncover their impacts on the compromised system.
+- Endpoint Investigation: Investigate Powershell logs (in JSON format) to understand the attacker’s methods, identify executed commands, and uncover their impacts on the compromised system.
 - Network Traffic Forensics: Analyze packet captures to track the exfiltration process, including identifying the tools and techniques used by the attacker to send sensitive data out of the network.
-- Data Exfiltration Detection: By correlating PowerShell logs with network traffic, understand how the attacker exfiltrated data, how it was encoded, and how to reconstruct the stolen data using network traffic.
+- Data Exfiltration Detection: By correlating Powershell logs with network traffic, understand how the attacker exfiltrated data, how it was encoded, and how to reconstruct the stolen data using network traffic.
 - Incident Response: By completing the analysis from email attachment extraction through to network traffic examination, uderstand how to conduct a full incident investigation, from initial compromise to data exfiltration, equip to respond to similar real-world incidents.
 
 ## Acknowledgements
 - Inspired from [TryHackMe - Boogeyman 1](https://tryhackme.com/r/room/boogeyman1)
-- [Whois](https://www.whois.com/whois/)
+- [Wireshark](https://www.whois.com/whois/)
+- [Thunderbird](https://www.whois.com/whois/)
+- [lnkparse](https://github.com/Matmaus/LnkParse3)
