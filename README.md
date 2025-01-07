@@ -120,7 +120,7 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 ## Acknowledgements
 - Inspired from [TryHackMe - Boogeyman 1](https://tryhackme.com/r/room/boogeyman1)
 - [Wireshark](https://www.whois.com/whois/)
-- [Thunderbird](https://www.whois.com/whois/)
+- [Thunderbird](https://www.thunderbird.net/en-US/)
 - [lnkparse](https://github.com/Matmaus/LnkParse3)
 
 ## Disclaimer
