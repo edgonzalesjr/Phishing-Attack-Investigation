@@ -122,3 +122,7 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 - [Wireshark](https://www.whois.com/whois/)
 - [Thunderbird](https://www.whois.com/whois/)
 - [lnkparse](https://github.com/Matmaus/LnkParse3)
+
+## Disclaimer
+
+The projects and activities within this portfolio are for educational and ethical cybersecurity research purposes only. All work was performed in controlled environments, including isolated, personally owned laboratories, subscription-based cloud environments, and through engagement with online cybersecurity learning platforms. Any cloud-based activities and participation in online learning platforms were conducted in full compliance with their respective terms of service and acceptable use policies. These projects should not be used for any illegal or unethical activities. Unauthorized access to any computer system or network is strictly prohibited. The author(s) are not responsible for any misuse of the information or code provided.
