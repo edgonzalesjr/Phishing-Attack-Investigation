@@ -100,7 +100,7 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 <p align="center">
 <img src="https://imgur.com/gmmBMDK.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b>Software is used by the attacker to host it's presumed file/payload server.</b>
+<b>Software used by the attacker to host it's presumed file/payload server.</b>
 <br/>
 
 <p align="center">
