@@ -30,7 +30,7 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 <p align="center">
 <img src="https://imgur.com/K6B0sYK.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b>Get the hash value of the provided artefacts</b>
+<b>Get the hash value of the provided artefacts.</b>
 <br/>
 
 <p align="center">
@@ -106,7 +106,7 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 <p align="center">
 <img src="https://imgur.com/eLWob4J.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b>Protocol used during the exfiltration activity</b>
+<b>Protocol used during the exfiltration activity.</b>
 <br/>
 
 ## Outcome
