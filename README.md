@@ -1,6 +1,6 @@
 ## Objective
  
-Analyze a phishing email and investigate a Windows-based compromise that involves PowerShell commands and data exfiltration, utilizing provided artefacts and tools.
+Analyze a phishing email and investigate a Windows-based compromise that involves powershell commands and data exfiltration, utilizing provided artefacts and tools.
 
 ### Skills Learned
 
@@ -8,11 +8,11 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
   - Extracting metadata and attachments from .eml files.
   - Decoding and reconstructing encoded attachments using CLI and GUI tools.
 - Endpoint Security Investigation
-  - Parsing and analyzing PowerShell logs to identify malicious commands.
+  - Parsing and analyzing Powershell logs to identify malicious commands.
   - Filtering relevant data from JSON logs using jq and other CLI tools.
 - Network Traffic Analysis
-  - Investigating packet captures using Wireshark and Tshark.
-  - Identifying malicious domains, ports, and data exfiltration techniques.
+  - Investigating packet captures using Wireshark.
+  - Identifying malicious domains, ip address, and data exfiltration techniques.
 - Threat Actor Profiling
   - Correlating findings with known TTPs of threat groups.
   - Assessing the impact of an attack on organizational security.
@@ -21,7 +21,6 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 
 - lnkparse: A Python tool used to parse Windows shortcut (.lnk) files, revealing the embedded commands and payload paths.
 - Wireshark: A GUI-based network protocol analyzer for inspecting packet capture files and identifying malicious network activity.
-- Tshark: A command-line version of Wireshark, ideal for extracting specific data from packet capture files.
 - jq: A command-line JSON processor for filtering and parsing large JSON files, such as PowerShell logs, to focus on specific entries or commands.
 - Thunderbird: An open-source email client used to open and analyze the contents of the phishing email (dump.eml), including attachments.
 - Command-Line Tools (grep, base64): These tools will assist in manually decoding and processing email data, including extracting base64-encoded payloads.
@@ -99,21 +98,15 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/gmmBMDK.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b></b>
-<br/>
-
-<p align="center">
-<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
-<br/>
-<b></b>
+<b>Software is used by the attacker to host it's presumed file/payload server.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/eLWob4J.png" height="40%" width="40%" alt="Device Specification"/>
 <br/>
-<b></b>
+<b>Protocol used during the exfiltration activity</b>
 <br/>
 
 ## Outcome
