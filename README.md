@@ -20,91 +20,91 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 ### Tools Used
 
 - lnkparse: A Python tool used to parse Windows shortcut (.lnk) files, revealing the embedded commands and payload paths.
-- Wireshark: A GUI-based network protocol analyzer for inspecting packet capture files and identifying malicious network activity.
 - jq: A command-line JSON processor for filtering and parsing large JSON files, such as PowerShell logs, to focus on specific entries or commands.
+- Wireshark: A GUI-based network protocol analyzer for inspecting packet capture files and identifying malicious network activity.
 - Thunderbird: An open-source email client used to open and analyze the contents of the phishing email (dump.eml), including attachments.
 - Command-Line Tools (grep, base64): These tools will assist in manually decoding and processing email data, including extracting base64-encoded payloads.
 
 ## Perform Analysis
 
 <p align="center">
-<img src="https://imgur.com/K6B0sYK.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/K6B0sYK.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>Get the hash value of the provided artefacts.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/rGQ6lsl.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/rGQ6lsl.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>Open the extracted .eml file to see what the email's content.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/mYGT2Hk.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/mYGT2Hk.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>Open the extracted .eml file to text editor.</b>
+<b>Open the extracted .eml file to a text editor.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/Tm1zRyC.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/Tm1zRyC.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>Extraction of the .eml for IOCs.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/M2cPUtu.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/M2cPUtu.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>Name of the third-party mail relay service used by the attacker based on the DKIM-Signature and List-Unsubscribe headers.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/gV31oQo.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/gV31oQo.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<b>Attachment Analysis.</b>
-<br/>
-
-<p align="center">
-<img src="https://imgur.com/pTGp4HA.png" height="40%" width="40%" alt="Device Specification"/>
-<br/>
-<img src="https://imgur.com/y9UlqZa.png" height="40%" width="40%" alt="Device Specification"/>
-<br/>
-<b>Parse .lnk file and decode the base64 string.</b>
+<b>Get the hash value of the email attached .lnk file.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/y9UlqZa.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/pTGp4HA.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
-<img src="https://imgur.com/meomwvu.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/y9UlqZa.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<b>Parse the .lnk file and decode the base64 string.</b>
+<br/>
+
+<p align="center">
+<img src="https://imgur.com/y9UlqZa.png" height="90%" width="90%" alt="Device Specification"/>
+<br/>
+<img src="https://imgur.com/meomwvu.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>Domains used by the attacker for file hosting and C2.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/0iYW973.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/0iYW973.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>The enumeration tool downloaded by the attacker.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/APYmkn7.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/APYmkn7.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>The file accessed by the attacker using the downloaded binary.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/IcV6ip4.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/IcV6ip4.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>The name of the exfiltrated file.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/gmmBMDK.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/gmmBMDK.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>Software used by the attacker to host it's presumed file/payload server.</b>
 <br/>
 
 <p align="center">
-<img src="https://imgur.com/eLWob4J.png" height="40%" width="40%" alt="Device Specification"/>
+<img src="https://imgur.com/eLWob4J.png" height="90%" width="90%" alt="Device Specification"/>
 <br/>
 <b>Protocol used during the exfiltration activity.</b>
 <br/>
@@ -118,11 +118,15 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 - Incident Response: By completing the analysis from email attachment extraction through to network traffic examination, uderstand how to conduct a full incident investigation, from initial compromise to data exfiltration, equip to respond to similar real-world incidents.
 
 ## Acknowledgements
-- Adapted from [TryHackMe - Boogeyman 1](https://tryhackme.com/r/room/boogeyman1)
+
+This project combines ideas and methods from various sources, such as the TTryHackMe - Boogeyman 1 room and my IT experience. These resources provided the fundamental information and techniques, which were then modified in light of practical uses.
+- [TryHackMe - Boogeyman 1](https://tryhackme.com/r/room/boogeyman1)
+- [lnkparse](https://github.com/Matmaus/LnkParse3)
+- [jq]()
 - [Wireshark](https://www.whois.com/whois/)
 - [Thunderbird](https://www.thunderbird.net/en-US/)
-- [lnkparse](https://github.com/Matmaus/LnkParse3)
+- [Sublime Text](https://www.sublimetext.com/)
 
 ## Disclaimer
 
-The projects and activities within this portfolio are for educational and ethical cybersecurity research purposes only. All work was performed in controlled environments, including isolated, personally owned laboratories, subscription-based cloud environments, and through engagement with online cybersecurity learning platforms. Any cloud-based activities and participation in online learning platforms were conducted in full compliance with their respective terms of service and acceptable use policies. These projects should not be used for any illegal or unethical activities. Unauthorized access to any computer system or network is strictly prohibited. The author(s) are not responsible for any misuse of the information or code provided.
+The sole goals of the projects and activities here are for education and ethical cybersecurity research. All work was conducted in controlled environments, such as paid cloud spaces, private labs, and online cybersecurity education platforms. Online learning and cloud tasks adhered closely to all usage guidelines. Never use these projects for improper or unlawful purposes. It is always prohibited to break into any computer system or network. Any misuse of the provided information or code is not the responsibility of the author or authors.
