@@ -21,7 +21,7 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 
 - lnkparse: A Python tool used to parse Windows shortcut (.lnk) files, revealing the embedded commands and payload paths.
 - jq: A command-line JSON processor for filtering and parsing large JSON files, such as PowerShell logs, to focus on specific entries or commands.
-- Wireshark: A GUI-based network protocol analyzer for inspecting packet capture files and identifying malicious network activity.
+- Wireshark: Network analysis tool for examining network traffic from a .pcap file.
 - Mozilla Thunderbird: Email client to open the .eml file.
 - Sublime Text: Text editor to open the .eml file.
 
