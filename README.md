@@ -120,12 +120,11 @@ Analyze a phishing email and investigate a Windows-based compromise that involve
 ## Acknowledgements
 
 This project combines ideas and methods from various sources, such as the TryHackMe - Boogeyman 1 room and my IT experience. These resources provided the fundamental information and techniques, which were then modified in light of practical uses.
-- [TryHackMe - Boogeyman 1](https://tryhackme.com/r/room/boogeyman1)
-- [lnkparse](https://github.com/Matmaus/LnkParse3)
-- [jq]()
-- [Wireshark](https://www.whois.com/whois/)
-- [Mozilla Thunderbird](https://www.thunderbird.net/en-US/)
-- [Sublime Text](https://www.sublimetext.com/)
+ - [TryHackMe - Boogeyman 1](https://tryhackme.com/r/room/boogeyman1)
+ - [lnkparse](https://github.com/Matmaus/LnkParse3) 
+ - [Wireshark](https://www.whois.com/whois/)
+ - [Mozilla Thunderbird](https://www.thunderbird.net/en-US/)
+ - [Sublime Text](https://www.sublimetext.com/)
 
 ## Disclaimer
 
