@@ -124,7 +124,7 @@ This project combines ideas and methods from various sources, such as the TTryHa
 - [lnkparse](https://github.com/Matmaus/LnkParse3)
 - [jq]()
 - [Wireshark](https://www.whois.com/whois/)
-- [Thunderbird](https://www.thunderbird.net/en-US/)
+- [Mozilla Thunderbird](https://www.thunderbird.net/en-US/)
 - [Sublime Text](https://www.sublimetext.com/)
 
 ## Disclaimer
